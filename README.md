@@ -43,9 +43,7 @@ This is a story-focused website that guides users through the timeline of the da
 
 ## 🌐 Live Preview (optional)
 
-If deployed via GitHub Pages:
-
-👉 [View the live site](https://jerrys-arch.github.io/dancing-plague-website/)
+https://dancing-plague-website.vercel.app/
 
 ## 🔧 Tech Stack
 
