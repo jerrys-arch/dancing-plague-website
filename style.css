@@ -1,0 +1,155 @@
+/* Font & Base Aesthetic */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+  background: #f4efe3;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #cabfab, #ede5d0);
+  color: #2f2f2f;
+  font-family: 'Cinzel', serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background: #5c4438;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+header button:hover {
+  background: #402f25;
+}
+
+main {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.header-image {
+  max-width: 600px;
+  width: 90%;
+  display: block;
+  margin: 2rem auto 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Section Fade-in */
+.fade-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Section styling */
+section {
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d3c6b5;
+}
+
+section h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #3e2f1c;
+}
+
+section p {
+  font-size: 1.05rem;
+}
+
+/* Quote carousel */
+.quote-box {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ece2d0;
+  border-left: 4px solid #a28a6b;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #444;
+}
+
+/* Music toggle */
+#musicToggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #5c4438;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.1rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
+  z-index: 10;
+}
+
+#musicToggle:hover {
+  background: #3c2d21;
+}
+
+/* Image styling */
+section img {
+  margin-top: 1rem;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+/* Links and citation section */
+section ul {
+  list-style-type: square;
+  padding-left: 1.2rem;
+}
+
+section a {
+  color: #6b4c3b;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+section a:hover {
+  color: #382519;
+}
